@@ -29,7 +29,9 @@
             <div class="page-content">
                 <div class="container-fluid">
                     <!-- Page-Title -->
-                    <x-backend.page-title />
+                    
+                    <x-backend.page-title titleGenerate='true'/>
+
                     <!--end row--><!-- end page title end breadcrumb -->
                     @yield('content')
                     <!--end row-->

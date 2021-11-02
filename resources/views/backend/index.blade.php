@@ -1,5 +1,10 @@
-@extends('layouts.backend') 
+@extends('layouts.backend')
 @section('content')
+<!-- Page-Title -->
+ <x-backend.page-title >
+    <li class="breadcrumb-item active"><a href="{{ route('dashboard') }}">Dashboard</a></li>
+ </x-backend.page-title>
+ <!-- Page-Title -->
 <div class="row">
     <div class="col-lg-4">
         <div class="card">
