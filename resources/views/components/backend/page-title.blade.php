@@ -3,9 +3,18 @@
         <div class="page-title-box">
             <div class="float-right">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Hospital</a></li>
-                    <li class="breadcrumb-item"><a href="javascript:void(0);">Hospital</a></li>
-                    <li class="breadcrumb-item active">Dashboard</li>
+                    
+                    {{$prepend ?? ''}}
+
+                    @if($titleGenerate == "true")
+                    @foreach($titelItems as $item)
+                    <li class="breadcrumb-item {{$item['action']!='#' ?'active' : ''}}"><a href="{{ $item['action'] ? $item['url'] : '#' }}">{{$item['name']}}</a></li>
+                    @endforeach 
+                    @endif
+
+                    {{$slot}}
+
+                    {{$append ?? ''}}
                 </ol>
             </div>
             <h4 class="page-title">Dashboard</h4>
