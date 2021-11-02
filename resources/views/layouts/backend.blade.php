@@ -30,8 +30,8 @@
             <!-- end left-sidenav--><!-- Page Content-->
             <div class="page-content">
                 <div class="container-fluid">
-                    <!-- Page-Title -->
-                    <x-backend.page-title/>
+                    
+                   
                     <!-- end page title end breadcrumb -->
                     @hasSection('content')
                         @yield('content')
