@@ -1,6 +1,6 @@
 <?php
 
-namespace App\View\Components\fondend;
+namespace App\View\Components\frontend;
 
 use Illuminate\View\Component;
 
@@ -23,6 +23,6 @@ class topbar extends Component
      */
     public function render()
     {
-        return view('components.fondend.topbar');
+        return view('components.frontend.topbar');
     }
 }

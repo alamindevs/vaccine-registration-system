@@ -10,7 +10,7 @@
         </div>
         <!--topbar-left--><!--end logo-->
         <ul class="list-unstyled topbar-nav float-right mb-0">
-            <li class="hidden-sm">
+            {{-- <li class="hidden-sm">
                 <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="javascript: void(0);" role="button" aria-haspopup="false" aria-expanded="false">
                     English <img src="{{ asset('contents/fondend') }}/assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt="" /> <i class="mdi mdi-chevron-down"></i>
                 </a>
@@ -21,9 +21,9 @@
                     <a class="dropdown-item" href="javascript: void(0);"><span>Spanish </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
                     <a class="dropdown-item" href="javascript: void(0);"><span>Russian </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
                 </div>
-            </li>
+            </li> --}}
             <!--end li-->
-            <li class="dropdown notification-list">
+            {{-- <li class="dropdown notification-list">
                 <a class="nav-link dropdown-toggle arrow-none waves-light waves-effect" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <i class="dripicons-bell noti-icon"></i> <span class="badge badge-danger badge-pill noti-icon-badge">2</span>
                 </a>
@@ -60,9 +60,9 @@
                     <!-- All-->
                     <a href="javascript:void(0);" class="dropdown-item text-center text-primary">View all <i class="fi-arrow-right"></i></a>
                 </div>
-            </li>
+            </li> --}}
             <!--end notification-list-->
-            <li class="dropdown">
+           {{--  <li class="dropdown">
                 <a class="nav-link dropdown-toggle waves-effect waves-light nav-user pr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <img src="{{ asset('contents/fondend') }}/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle" /> <span class="ml-1 nav-user-name hidden-sm">Dr.Amelia <i class="mdi mdi-chevron-down"></i></span>
                 </a>
@@ -72,7 +72,7 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#"><i class="dripicons-exit text-muted mr-2"></i> Logout</a>
                 </div>
-            </li>
+            </li> --}}
             <!--end dropdown-->
             <li class="menu-item">
                 <!-- Mobile menu toggle-->
@@ -114,11 +114,11 @@
 								S60.7,57,58.8,57H49v9.4c0,1.9-1.6,3.5-3.5,3.5S42,68.4,42,66.4V57h-8.8C31.3,57,29.7,55.4,29.7,53.5z"
                                 ></path>
                             </svg>
-                            <span>Hospital</span>
+                            <span>Vaccine</span>
                         </a>
                         <ul class="submenu">
                             <li>
-                                <a href="hospital-index.html"><i class="dripicons-meter"></i>Dashboard</a>
+                                <a href="hospital-index.html"><i class="dripicons-meter"></i>Registration</a>
                             </li>
                             <li class="has-submenu">
                                 <a href="#"><i class="dripicons-clipboard"></i>Appointments</a>
@@ -179,7 +179,7 @@
                         <!--end submenu-->
                     </li>
                     <!--end has-submenu-->
-                    <li class="has-submenu">
+                   {{--  <li class="has-submenu">
                         <a href="#">
                             <svg class="nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path
@@ -217,9 +217,9 @@
                             </li>
                         </ul>
                         <!--end submenu-->
-                    </li>
+                    </li> --}}
                     <!--end has-submenu-->
-                    <li class="has-submenu">
+                   {{--  <li class="has-submenu">
                         <a href="#">
                             <svg class="nav-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
                                 <path d="M70.7 164.5l169.2 81.7c4.4 2.1 10.3 3.2 16.1 3.2s11.7-1.1 16.1-3.2l169.2-81.7c8.9-4.3 8.9-11.3 0-15.6L272.1 67.2c-4.4-2.1-10.3-3.2-16.1-3.2s-11.7 1.1-16.1 3.2L70.7 148.9c-8.9 4.3-8.9 11.3 0 15.6z" />
@@ -343,9 +343,9 @@
                             <!--end has-submenu-->
                         </ul>
                         <!--end submenu-->
-                    </li>
+                    </li> --}}
                     <!--end has-submenu-->
-                    <li class="has-submenu">
+                   {{--  <li class="has-submenu">
                         <a href="#">
                             <svg
                                 class="nav-svg"
@@ -417,9 +417,9 @@
                                 <a href="../pages/pages-gallery.html"><i class="dripicons-photo-group"></i>Gallery</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <!--end has-submenu-->
-                    <li class="has-submenu">
+                  {{--   <li class="has-submenu">
                         <a href="#">
                             <svg
                                 class="nav-svg"
@@ -465,7 +465,7 @@
                                 <a href="../authentication/auth-500.html"><i class="dripicons-wrong"></i>Error 500</a>
                             </li>
                         </ul>
-                    </li>
+                    </li> --}}
                     <!--end has-submenu-->
                 </ul>
                 <!-- End navigation menu -->

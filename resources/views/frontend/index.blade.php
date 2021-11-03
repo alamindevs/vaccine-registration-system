@@ -1,4 +1,4 @@
-@extends('layouts.fondend') 
+@extends('layouts.frontend') 
 @section('content')
 <div class="row">
     <div class="col-lg-4">
@@ -12,7 +12,7 @@
                                 <div class="col-12 align-self-center">
                                     <div class="text-center">
                                         <h4 class="mt-0 header-title text-left">Apollo Hospital</h4>
-                                        <div class="my-3"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-1.jpg" alt="" height="120" class="rounded-circle" /></div>
+                                        <div class="my-3"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-1.jpg" alt="" height="120" class="rounded-circle" /></div>
                                         <h2 class="dr-title mb-1">Dr.Helen White</h2>
                                         <p class="text-muted font-14 mb-0"><span class="mr-2 text-secondary">MS Cardiology</span> 11:00am to 03:00pm</p>
                                     </div>
@@ -27,7 +27,7 @@
                                 <div class="col-12 align-self-center">
                                     <div class="text-center">
                                         <h4 class="mt-0 header-title text-left">Kaiser Foundation Hospital</h4>
-                                        <div class="my-3"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-2.jpg" alt="" height="120" class="rounded-circle" /></div>
+                                        <div class="my-3"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-2.jpg" alt="" height="120" class="rounded-circle" /></div>
                                         <h2 class="dr-title mb-1">Dr.Wendy Keen</h2>
                                         <p class="text-muted font-14 mb-0"><span class="mr-2 text-secondary">MD Neurology</span> 01:00pm to 04:00pm</p>
                                     </div>
@@ -42,7 +42,7 @@
                                 <div class="col-12 align-self-center">
                                     <div class="text-center">
                                         <h4 class="mt-0 header-title text-left">Florida Hospital</h4>
-                                        <div class="my-3"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-3.jpg" alt="" height="120" class="rounded-circle" /></div>
+                                        <div class="my-3"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-3.jpg" alt="" height="120" class="rounded-circle" /></div>
                                         <h2 class="dr-title mb-1">Dr.Thomas Fant</h2>
                                         <p class="text-muted font-14 mb-0"><span class="mr-2 text-secondary">MD Orthopedic</span> 09:00am to 11:30am</p>
                                     </div>
@@ -57,7 +57,7 @@
                                 <div class="col-12 align-self-center">
                                     <div class="text-center">
                                         <h4 class="mt-0 header-title text-left">Shesmedi Hospital</h4>
-                                        <div class="my-3"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-4.jpg" alt="" height="120" class="rounded-circle" /></div>
+                                        <div class="my-3"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-4.jpg" alt="" height="120" class="rounded-circle" /></div>
                                         <h2 class="dr-title mb-1">Dr.Lisa King</h2>
                                         <p class="text-muted font-14 mb-0"><span class="mr-2 text-secondary">MS Psychology</span> 05:00pm to 08:00pm</p>
                                     </div>
@@ -257,7 +257,7 @@
                     <!--end col-->
                     <div class="col-md-7 align-self-center">
                         <div class="text-center">
-                            <img src="{{ asset('contents/fondend') }}/assets/images/widgets/weather.png" alt="" height="70" />
+                            <img src="{{ asset('contents/frontend') }}/assets/images/widgets/weather.png" alt="" height="70" />
                             <h2>32°</h2>
                             <h4 class="title-text">San Francisco, California</h4>
                             <p class="text-muted">SUNDAY 25<sup>th</sup> Aug 2019</p>
@@ -354,7 +354,7 @@
                         <tbody>
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-10.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Donald Gardner</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-10.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Donald Gardner</a>
                                 </td>
                                 <td>36</td>
                                 <td>#1236</td>
@@ -369,7 +369,7 @@
                             <!--end tr-->
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-9.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Keith Jacobson</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-9.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Keith Jacobson</a>
                                 </td>
                                 <td>48</td>
                                 <td>#1236</td>
@@ -384,7 +384,7 @@
                             <!--end tr-->
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-9.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Greg Crosby</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-9.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Greg Crosby</a>
                                 </td>
                                 <td>27</td>
                                 <td>#1236</td>
@@ -399,7 +399,7 @@
                             <!--end tr-->
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-8.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Fred Godina</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-8.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Fred Godina</a>
                                 </td>
                                 <td>22</td>
                                 <td>#1236</td>
@@ -414,7 +414,7 @@
                             <!--end tr-->
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-7.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Peggy Doe</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-7.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Peggy Doe</a>
                                 </td>
                                 <td>51</td>
                                 <td>#7851</td>
@@ -429,7 +429,7 @@
                             <!--end tr-->
                             <tr>
                                 <td>
-                                    <a href="patient-profile.html"><img src="{{ asset('contents/fondend') }}/assets/images/users/user-8.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Jennifer Doss</a>
+                                    <a href="patient-profile.html"><img src="{{ asset('contents/frontend') }}/assets/images/users/user-8.jpg" alt="" class="thumb-sm rounded-circle mr-2" />Jennifer Doss</a>
                                 </td>
                                 <td>18</td>
                                 <td>#3654</td>
