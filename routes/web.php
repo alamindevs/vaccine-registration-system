@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Frontend\VaccineRegistrationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('frontend.index');
 })->name('home');
+
+Route::get('/registration',[VaccineRegistrationController::class , 'registration'])->name('frontend.vaccine.registration');
 
 require __DIR__.'/backend.php';
 
