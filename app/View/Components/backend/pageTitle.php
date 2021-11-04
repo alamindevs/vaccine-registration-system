@@ -34,6 +34,9 @@ class pageTitle extends Component
         $arrayCount = count($nameArray);
         $newArray = [];
         for ($i=0; $i < $arrayCount; $i++) { 
+            if ($i==0 && $nameArray[$i] == 'backend' || $nameArray[$i] == 'frontend') {
+                continue;
+            }
             $name = [
                 'name' => ucwords($nameArray[$i]),
                 'action' => $arrayCount - 1 == $i ? $routeName : "#",
