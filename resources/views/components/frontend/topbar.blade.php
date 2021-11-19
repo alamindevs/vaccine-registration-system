@@ -4,22 +4,22 @@
         <!-- LOGO -->
         <div class="topbar-left">
             <a href="../projects/projects-index.html" class="logo">
-                <span><img src="{{ asset('contents/fondend') }}/assets/images/logo-sm.png" alt="logo-small" class="logo-sm" /> </span>
-                <span><img src="{{ asset('contents/fondend') }}/assets/images/logo-dark.png" alt="logo-large" class="logo-lg" /></span>
+                <span><img src="{{ asset('contents/frontend') }}/assets/images/logo-sm.png" alt="logo-small" class="logo-sm" /> </span>
+                <span><img src="{{ asset('contents/frontend') }}/assets/images/logo-dark.png" alt="logo-large" class="logo-lg" /></span>
             </a>
         </div>
         <!--topbar-left--><!--end logo-->
         <ul class="list-unstyled topbar-nav float-right mb-0">
             {{-- <li class="hidden-sm">
                 <a class="nav-link dropdown-toggle waves-effect waves-light" data-toggle="dropdown" href="javascript: void(0);" role="button" aria-haspopup="false" aria-expanded="false">
-                    English <img src="{{ asset('contents/fondend') }}/assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt="" /> <i class="mdi mdi-chevron-down"></i>
+                    English <img src="{{ asset('contents/frontend') }}/assets/images/flags/us_flag.jpg" class="ml-2" height="16" alt="" /> <i class="mdi mdi-chevron-down"></i>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
-                    <a class="dropdown-item" href="javascript: void(0);"><span>German </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
-                    <a class="dropdown-item" href="javascript: void(0);"><span>Italian </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
-                    <a class="dropdown-item" href="javascript: void(0);"><span>French </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
-                    <a class="dropdown-item" href="javascript: void(0);"><span>Spanish </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
-                    <a class="dropdown-item" href="javascript: void(0);"><span>Russian </span><img src="{{ asset('contents/fondend') }}/assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
+                    <a class="dropdown-item" href="javascript: void(0);"><span>German </span><img src="{{ asset('contents/frontend') }}/assets/images/flags/germany_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
+                    <a class="dropdown-item" href="javascript: void(0);"><span>Italian </span><img src="{{ asset('contents/frontend') }}/assets/images/flags/italy_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
+                    <a class="dropdown-item" href="javascript: void(0);"><span>French </span><img src="{{ asset('contents/frontend') }}/assets/images/flags/french_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
+                    <a class="dropdown-item" href="javascript: void(0);"><span>Spanish </span><img src="{{ asset('contents/frontend') }}/assets/images/flags/spain_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
+                    <a class="dropdown-item" href="javascript: void(0);"><span>Russian </span><img src="{{ asset('contents/frontend') }}/assets/images/flags/russia_flag.jpg" alt="" class="ml-2 float-right" height="14" /></a>
                 </div>
             </li> --}}
             <!--end li-->
@@ -64,7 +64,7 @@
             <!--end notification-list-->
            {{--  <li class="dropdown">
                 <a class="nav-link dropdown-toggle waves-effect waves-light nav-user pr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-                    <img src="{{ asset('contents/fondend') }}/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle" /> <span class="ml-1 nav-user-name hidden-sm">Dr.Amelia <i class="mdi mdi-chevron-down"></i></span>
+                    <img src="{{ asset('contents/frontend') }}/assets/images/users/user-4.jpg" alt="profile-user" class="rounded-circle" /> <span class="ml-1 nav-user-name hidden-sm">Dr.Amelia <i class="mdi mdi-chevron-down"></i></span>
                 </a>
                 <div class="dropdown-menu dropdown-menu-right">
                     <a class="dropdown-item" href="#"><i class="dripicons-user text-muted mr-2"></i> Profile</a> <a class="dropdown-item" href="#"><i class="dripicons-wallet text-muted mr-2"></i> My Wallet</a>
